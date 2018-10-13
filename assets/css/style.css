@@ -1,0 +1,67 @@
+/*=========== IDs ===========*/
+#intro-page {
+    display: flex;
+    background-color: #151721;
+    background-image: url('');
+    height: 100vh;
+    text-align: center;
+    flex-direction: column;
+    position: relative;
+}
+
+#about-me {
+    height: 100vh;
+    background-color: white;
+}
+
+#sub-intro {
+    position: absolute;
+    bottom: 20%;
+}
+#portfolio-tab {
+    background-color: white;
+    position: absolute;
+    bottom: 0;
+    padding: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+#portfolio-tab h2 {
+    font-size: 16px;
+}
+
+/*=========== Classes ===========*/
+.justify-center {
+    justify-content: center;
+}
+
+.align-center {
+    align-self: center;
+}
+
+.align-end {
+    margin-top: auto;
+}
+
+.me-text {
+    font-size: 30px;
+    font-weight: bold;
+    color: #f62d73;
+}
+
+.white-text {
+    color: white;
+}
+
+/*=========== Basic Tags ===========*/
+h1 {
+    font-family: 'Syncopate', sans-serif;
+    font-size: 28px;
+    font-weight: normal;
+}
+
+h2 {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+}
