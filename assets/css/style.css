@@ -1,8 +1,14 @@
 /*=========== IDs ===========*/
+#intro-background {
+    background-image: url('../images/693.jpg');
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 #intro-page {
     display: flex;
-    background-color: #151721;
-    background-image: url('');
+    background-color: rgba(21, 23, 33, 0.85);
     height: 100vh;
     text-align: center;
     flex-direction: column;
